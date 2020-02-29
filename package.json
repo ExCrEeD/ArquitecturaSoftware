@@ -16,8 +16,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./API/socket.js",
-    "dev": "nodemon ./API/socket.js"
+    "start": "node ./API/juggernautServer.js",
+    "dev": "nodemon ./API/juggernautServer.js"
   },
   "keywords": [],
   "author": "",
