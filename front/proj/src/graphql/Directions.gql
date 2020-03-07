@@ -1,0 +1,9 @@
+#import "./MessageFragment.gql"
+
+query directions {
+  getRouteMap{
+    _id
+    direction
+    time
+  }
+}

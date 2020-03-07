@@ -1,22 +1,23 @@
 <template>
   <div id="app">
-    <test></test>
+    <ApolloExample msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
+
 <script>
-import Test from './components/Test'
+import ApolloExample from './components/ApolloExample.vue'
 
 export default {
   name: 'App',
   components: {
-    Test
+    ApolloExample
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
